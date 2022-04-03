@@ -1,10 +1,13 @@
 # GitHub_Search_Repos
 <br>
+
+
+[https://tw001chenyi.github.io/GitHub_Search_Repos/](https://tw001chenyi.github.io/GitHub_Search_Repos/)<br>
 作者:TW001ChenYI<br>
 
 ![image](asset/View.gif)
 
-本專案是利用React框架寫出一個提供使用者查詢GitHub的Repository，查詢後會顯示前10筆資料，並利用Windows Scroll監聽螢幕到底部時，再次請求API，顯示接下來10筆。
+本專案是利用React框架寫出一個提供使用者查詢GitHub的Repository，查詢後會顯示前10筆Repostories，並利用Windows Scroll監聽螢幕到底部時，再次請求API，顯示接下來10筆Repostories，點擊Repository就會跳轉該Repository的詳細內容。
 
 ## Setup    
 ### 下載本專案
