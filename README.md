@@ -19,4 +19,16 @@
 
 ## Open Page
 [http://localhost:3000/GitHub_Search_Repos](http://localhost:3000/GitHub_Search_Repos)
+
 ![image](asset/Search.png)
+# 關於本專案
+## 開發環境
+1. MacBook Pro (13-inch, M1, 2020)(macOS BigSur 11.4)<br>
+1. Vs Code<br>
+
+## 框架
+1. React<br>
+1. GitHub Page<br>
+
+# 關於我
+如有發現錯誤或者需要改進的地方，可以向我聯絡：[D10816104@gs.takming.edu.tw](mail:D10816104@gs.takming.edu.tw)
