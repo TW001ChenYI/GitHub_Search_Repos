@@ -31,4 +31,4 @@
 1. GitHub Page<br>
 
 # 關於我
-如有發現錯誤或者需要改進的地方，可以向我聯絡：[D10816104@gs.takming.edu.tw](mail:D10816104@gs.takming.edu.tw)
+如有發現錯誤或者需要改進的地方，可以向我聯絡：[D10816104@gs.takming.edu.tw](mailto:D10816104@gs.takming.edu.tw)
