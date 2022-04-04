@@ -24,10 +24,23 @@
 [http://localhost:3000/GitHub_Search_Repos](http://localhost:3000/GitHub_Search_Repos)
 
 ![image](asset/Search.png)
+## reasult
+1. 點擊查詢時，輸入匡不能為空，否則會跳出提醒
+   ![imges](asset/result1.png)
+2. 顯示repositories
+   ![imges](asset/result2.png)
+3. 此使用者但沒有repository
+   ![imges](asset/result3.png)
+4. 查無此使用者
+   ![imges](asset/result4.png)
+5. 該Repostory中description為空則顯示No description, website, or topics provided.
+   ![imges](ass/../asset/result5.png)
+
 # 關於本專案
 ## 開發環境
 1. MacBook Pro (13-inch, M1, 2020)(macOS BigSur 11.4)<br>
 1. Vs Code<br>
+2. npm 6.14.15
 
 ## 框架
 1. React<br>
