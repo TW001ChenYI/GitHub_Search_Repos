@@ -36,6 +36,9 @@
 5. 該Repostory中description為空則顯示No description, website, or topics provided.
    ![imges](ass/../asset/result5.png)
 
+## API Response
+   平均：500毫秒
+
 # 關於本專案
 ## 開發環境
 1. MacBook Pro (13-inch, M1, 2020)(macOS BigSur 11.4)<br>

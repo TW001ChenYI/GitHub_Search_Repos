@@ -18,6 +18,8 @@ const RepositoryAPI =()=>{
     },[])
 
     const getRepos= async()=>{
+        const start=Date.now()
+        // console.time()
         fetch(`https://api.github.com/users/${param.username}/repos?page=${page}&per_page=10`)
         .then(async res=>{
             if(res.status===200)
@@ -31,19 +33,20 @@ const RepositoryAPI =()=>{
             }
             else if(res.status===404){setLoad("查無此人資料，請重新查詢，點擊回首頁")}
             else setLoad("Error: "+res.status)
+            console.log(Date.now()-start)
+            // console.timeEnd()
         })
         setPage(page+1)
     }
 
     useEffect(()=>{
-        window.addEventListener('scroll',isTouchBottom)
-        return () => { window.removeEventListener('scroll',isTouchBottom) } 
+        window.addEventListener('scroll',Scroll)
+        return () => { window.removeEventListener('scroll',Scroll) } 
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[repository])
 
-    const isTouchBottom = () => {
+    const Scroll = () => {
         const showHeight = window.innerHeight || document.documentElement.clientHeight; 
-        console.log(showHeight);
         const scrollTopHeight = document.body.scrollTop || document.documentElement.scrollTop ;
         const allHeight = document.body.scrollHeight || document.documentElement.scrollHeight; 
         if (allHeight <= showHeight + scrollTopHeight) {
